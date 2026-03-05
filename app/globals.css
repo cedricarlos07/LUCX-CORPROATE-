@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-brand-blue: #1A1464;
+  --color-brand-yellow: #F9C03D;
+  --color-brand-blue-light: #2A228A;
+  --color-brand-yellow-light: #FAD065;
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
