@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, Phone } from 'lucide-react';
 
+import Image from 'next/image';
+
 const navLinks = [
   { name: 'Accueil', href: '/#home' },
   { name: 'À Propos', href: '/#about' },
@@ -35,13 +37,14 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <div className="flex-shrink-0">
             <a href="/#home" className="flex items-center gap-2">
-              <div className="flex items-center justify-center w-10 h-10 bg-brand-blue text-brand-yellow font-serif font-bold text-xl rounded-sm">
-                LC
-              </div>
-              <div className={`flex flex-col ${isScrolled ? 'text-brand-blue' : 'text-white'}`}>
-                <span className="font-serif font-bold text-xl leading-none tracking-wider">LUCX</span>
-                <span className="text-[10px] font-medium tracking-[0.2em] text-brand-yellow">CORPORATE</span>
-              </div>
+              <Image 
+                src="/logo.png" 
+                alt="LUCX CORPORATE" 
+                width={150} 
+                height={50} 
+                className="h-10 w-auto object-contain"
+                priority
+              />
             </a>
           </div>
 

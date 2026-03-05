@@ -10,12 +10,11 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://picsum.photos/seed/construction/1920/1080"
+          src="/hero_bg.png"
           alt="Travaux de second œuvre, rénovation et construction par LUCX CORPORATE en Côte d'Ivoire"
           fill
           className="object-cover opacity-30"
           priority
-          referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-blue via-brand-blue/80 to-transparent mix-blend-multiply" />
       </div>
@@ -87,7 +86,7 @@ export default function Hero() {
           >
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] border border-white/10 rounded-full animate-[spin_60s_linear_infinite]" />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] border border-white/10 rounded-full animate-[spin_40s_linear_infinite_reverse]" />
-            
+
             <div className="absolute right-0 top-20 w-64 bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl shadow-2xl">
               <div className="text-4xl font-serif text-brand-yellow mb-2">2020</div>
               <div className="text-sm text-white font-medium uppercase tracking-wider">Année de création</div>

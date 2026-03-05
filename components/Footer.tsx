@@ -1,6 +1,7 @@
 'use client';
 
 import { Facebook, Linkedin, Instagram } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -10,13 +11,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <a href="/#home" className="flex items-center gap-2 mb-6">
-              <div className="flex items-center justify-center w-10 h-10 bg-brand-blue text-brand-yellow font-serif font-bold text-xl rounded-sm">
-                LC
-              </div>
-              <div className="flex flex-col text-white">
-                <span className="font-serif font-bold text-xl leading-none tracking-wider">LUCX</span>
-                <span className="text-[10px] font-medium tracking-[0.2em] text-brand-yellow">CORPORATE</span>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="LUCX CORPORATE"
+                width={120}
+                height={40}
+                className="h-10 w-auto object-contain"
+              />
             </a>
             <p className="text-sm text-slate-400 leading-relaxed mb-6">
               Entreprise spécialisée dans les travaux de second œuvre du bâtiment. Rénovation, aménagements, installations techniques, sécurité.

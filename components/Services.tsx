@@ -99,15 +99,15 @@ export default function Services() {
               className={`group relative bg-white rounded-2xl p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300 overflow-hidden`}
             >
               <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-transparent to-slate-50 rounded-bl-full -z-10 transition-transform group-hover:scale-110`} />
-              
+
               <div className={`inline-flex items-center justify-center w-14 h-14 rounded-xl mb-6 border ${service.color} transition-colors duration-300 ${service.hover}`}>
                 <service.icon className="w-6 h-6" />
               </div>
-              
+
               <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">
                 {service.title}
               </h3>
-              
+
               <p className="text-slate-600 leading-relaxed text-sm mb-6">
                 {service.description}
               </p>
@@ -127,13 +127,13 @@ export default function Services() {
           viewport={{ once: true }}
           className="mt-20 bg-brand-blue rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden"
         >
-          <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/pattern/1920/1080')] opacity-10 mix-blend-overlay" />
-          
+          <div className="absolute inset-0 bg-[url(/service_pattern.png)] opacity-10 mix-blend-overlay" />
+
           <div className="relative z-10 text-center">
             <h3 className="text-2xl md:text-3xl font-serif font-bold text-white mb-8">
               Notre Méthodologie d&apos;Intervention
             </h3>
-            
+
             <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 text-sm md:text-base font-medium text-brand-yellow">
               <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20">
                 <span className="w-6 h-6 rounded-full bg-brand-yellow text-brand-blue flex items-center justify-center text-xs font-bold">1</span>

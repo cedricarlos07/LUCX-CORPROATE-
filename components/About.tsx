@@ -30,8 +30,8 @@ const features = [
 export default function About() {
   return (
     <section id="about" className="py-24 bg-white relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/blueprint/1920/1080')] opacity-5 mix-blend-multiply" />
-      
+      <div className="absolute inset-0 bg-[url(/service_pattern.png)] opacity-5 mix-blend-multiply" />
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div
@@ -79,14 +79,13 @@ export default function About() {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative group">
               <Image
-                src="https://picsum.photos/seed/architecture/800/1000"
+                src="/about_vision.png"
                 alt="Bâtiment moderne rénové par les experts de LUCX CORPORATE"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
-                referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-blue/80 via-transparent to-transparent" />
-              
+
               <div className="absolute bottom-0 left-0 right-0 p-8">
                 <div className="bg-white/90 backdrop-blur-sm p-6 rounded-xl shadow-lg border-l-4 border-brand-yellow">
                   <p className="text-brand-blue font-serif font-bold text-2xl mb-2">Notre Vision</p>
@@ -96,7 +95,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            
+
             {/* Decorative elements */}
             <div className="absolute -top-6 -right-6 w-32 h-32 bg-brand-yellow rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-pulse" />
             <div className="absolute -bottom-6 -left-6 w-40 h-40 bg-brand-blue rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-pulse" />

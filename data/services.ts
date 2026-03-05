@@ -6,7 +6,7 @@ export const servicesData = [
     title: 'Rénovation Bâtiment',
     subtitle: 'L\'art de redonner vie à vos espaces',
     icon: Hammer,
-    image: 'https://picsum.photos/seed/renovation/1920/1080',
+    image: '/service_renovation_hero.png',
     color: 'bg-orange-50 text-orange-600 border-orange-200',
     content: [
       "LUCX CORPORATE excelle dans la réhabilitation complète et la rénovation de tous types de bâtiments : logements résidentiels, espaces de bureaux, locaux commerciaux et installations techniques. Notre approche globale nous permet de prendre en charge l'intégralité de votre projet, de la conception à la livraison.",
@@ -21,9 +21,9 @@ export const servicesData = [
       "Travaux de maçonnerie et reprises de structure"
     ],
     gallery: [
-      'https://picsum.photos/seed/renovation1/800/600',
-      'https://picsum.photos/seed/renovation2/800/600',
-      'https://picsum.photos/seed/renovation3/800/600'
+      '/ref_renovation.png',
+      '/about_vision.png',
+      '/hero_bg.png'
     ],
     caseStudies: [
       {
@@ -36,7 +36,7 @@ export const servicesData = [
           "Mise aux normes complète des installations",
           "Livraison dans les délais impartis avec un niveau de finition premium"
         ],
-        image: "https://picsum.photos/seed/penthouse-case/800/600"
+        image: "/service_renovation_case.png"
       }
     ]
   },
@@ -45,7 +45,7 @@ export const servicesData = [
     title: 'Aménagement Extérieur & Paysagisme',
     subtitle: 'Créez un environnement extérieur qui vous ressemble',
     icon: Leaf,
-    image: 'https://picsum.photos/seed/landscape/1920/1080',
+    image: '/service_landscaping_hero.png',
     color: 'bg-emerald-50 text-emerald-600 border-emerald-200',
     content: [
       "L'aménagement extérieur est le prolongement naturel de votre espace de vie ou de travail. Chez LUCX CORPORATE, nous concevons et réalisons des aménagements paysagers sur mesure qui valorisent votre patrimoine et améliorent votre cadre de vie.",
@@ -62,9 +62,9 @@ export const servicesData = [
       "Entretien (tonte, élagage, débroussaillage)"
     ],
     gallery: [
-      'https://picsum.photos/seed/landscape1/800/600',
-      'https://picsum.photos/seed/landscape2/800/600',
-      'https://picsum.photos/seed/landscape3/800/600'
+      '/service_landscaping_case.png',
+      '/hero_bg.png',
+      '/about_vision.png'
     ],
     caseStudies: [
       {
@@ -77,7 +77,7 @@ export const servicesData = [
           "Réduction de 30% de la consommation d'eau grâce à l'arrosage intelligent",
           "Valorisation esthétique du bâtiment"
         ],
-        image: "https://picsum.photos/seed/landscape-case/800/600"
+        image: "/service_landscaping_case.png"
       }
     ]
   },
@@ -86,7 +86,7 @@ export const servicesData = [
     title: 'Électricité, Plomberie & Climatisation',
     subtitle: 'Le cœur technique de votre bâtiment',
     icon: Zap,
-    image: 'https://picsum.photos/seed/mep/1920/1080',
+    image: '/service_mep_hero.png',
     color: 'bg-blue-50 text-blue-600 border-blue-200',
     content: [
       "Les lots techniques sont essentiels au confort et à la sécurité de tout bâtiment. LUCX CORPORATE dispose d'équipes spécialisées pour répondre à l'ensemble de vos besoins en électricité, plomberie et climatisation.",
@@ -100,9 +100,9 @@ export const servicesData = [
       "Climatisation : Pose de climatiseurs, maintenance, solutions réversibles"
     ],
     gallery: [
-      'https://picsum.photos/seed/mep1/800/600',
-      'https://picsum.photos/seed/mep2/800/600',
-      'https://picsum.photos/seed/mep3/800/600'
+      '/ref_plumbing.png',
+      '/ref_electricity.png',
+      '/service_mep_case.png'
     ],
     caseStudies: [
       {
@@ -115,7 +115,7 @@ export const servicesData = [
           "Efficacité énergétique des installations",
           "Maintenance préventive assurée avec zéro panne majeure"
         ],
-        image: "https://picsum.photos/seed/mep-case/800/600"
+        image: "/hero_bg.png"
       },
       {
         title: "Sécurisation Électrique pour l'UPC/PPRC",
@@ -127,7 +127,7 @@ export const servicesData = [
           "Continuité de service garantie (100% d'uptime)",
           "Allongement de la durée de vie des équipements informatiques"
         ],
-        image: "https://picsum.photos/seed/stabilizer-case/800/600"
+        image: "/service_mep_case.png"
       }
     ]
   },
@@ -136,7 +136,7 @@ export const servicesData = [
     title: 'Finition – Carrelage & Peinture',
     subtitle: 'La touche finale qui sublime vos espaces',
     icon: PaintRoller,
-    image: 'https://picsum.photos/seed/painting/1920/1080',
+    image: '/service_finishing_hero.png',
     color: 'bg-purple-50 text-purple-600 border-purple-200',
     content: [
       "Les travaux de finition requièrent minutie, précision et un sens aigu de l'esthétique. LUCX CORPORATE met à votre disposition des artisans carreleurs et peintres expérimentés pour sublimer vos intérieurs et extérieurs.",
@@ -152,9 +152,9 @@ export const servicesData = [
       "Revêtements décoratifs (stucco, effet béton)"
     ],
     gallery: [
-      'https://picsum.photos/seed/painting1/800/600',
-      'https://picsum.photos/seed/painting2/800/600',
-      'https://picsum.photos/seed/painting3/800/600'
+      '/ref_painting.png',
+      '/about_vision.png',
+      '/hero_bg.png'
     ],
     caseStudies: [
       {
@@ -167,7 +167,7 @@ export const servicesData = [
           "Protection durable des façades contre les intempéries",
           "Respect strict du calendrier avant la rentrée académique"
         ],
-        image: "https://picsum.photos/seed/painting-case/800/600"
+        image: "/ref_painting.png"
       }
     ]
   },
@@ -176,7 +176,7 @@ export const servicesData = [
     title: 'Sécurité Électronique',
     subtitle: 'Protégez ce qui compte le plus pour vous',
     icon: Lock,
-    image: 'https://picsum.photos/seed/security/1920/1080',
+    image: '/ref_security.png',
     color: 'bg-red-50 text-red-600 border-red-200',
     content: [
       "Face aux enjeux croissants de sécurité, LUCX CORPORATE vous accompagne dans la protection de vos biens, de vos collaborateurs et de vos proches grâce à des solutions de sécurité électronique de pointe.",
@@ -191,9 +191,9 @@ export const servicesData = [
       "Maintenance et télésurveillance"
     ],
     gallery: [
-      'https://picsum.photos/seed/security1/800/600',
-      'https://picsum.photos/seed/security2/800/600',
-      'https://picsum.photos/seed/security3/800/600'
+      '/ref_security.png',
+      '/hero_bg.png',
+      '/about_vision.png'
     ],
     caseStudies: [
       {
@@ -206,7 +206,7 @@ export const servicesData = [
           "Effet dissuasif immédiat contre les tentatives d'effraction",
           "Installation robuste conçue pour résister aux conditions extrêmes"
         ],
-        image: "https://picsum.photos/seed/security-case/800/600"
+        image: "/ref_security.png"
       }
     ]
   },
@@ -215,7 +215,7 @@ export const servicesData = [
     title: 'Ferronnerie & Métallerie',
     subtitle: 'La robustesse du métal alliée à l\'élégance du design',
     icon: Wrench,
-    image: 'https://picsum.photos/seed/metalwork/1920/1080',
+    image: '/ref_metalwork.png',
     color: 'bg-slate-100 text-slate-700 border-slate-300',
     content: [
       "Le pôle Ferronnerie & Métallerie de LUCX CORPORATE conçoit, fabrique et installe des ouvrages métalliques sur mesure qui allient sécurité, durabilité et esthétisme.",
@@ -230,9 +230,9 @@ export const servicesData = [
       "Traitement anti-corrosion"
     ],
     gallery: [
-      'https://picsum.photos/seed/metalwork1/800/600',
-      'https://picsum.photos/seed/metalwork2/800/600',
-      'https://picsum.photos/seed/metalwork3/800/600'
+      '/ref_metalwork.png',
+      '/ref_maintenance.png',
+      '/hero_bg.png'
     ],
     caseStudies: [
       {
@@ -245,7 +245,7 @@ export const servicesData = [
           "Niveau de sécurité maximal",
           "Finitions durables avec traitement anti-corrosion garanti"
         ],
-        image: "https://picsum.photos/seed/metalwork-case/800/600"
+        image: "/ref_metalwork.png"
       }
     ]
   }
